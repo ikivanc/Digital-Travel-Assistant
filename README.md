@@ -11,6 +11,7 @@ To Visualize results I've picked Adaptive Card to provide better custom experien
 ## Guided Conversations
 
 Here's a guided conversations every answer picked from a suggestion list feature of Bot Framework.
+
  Conversation part 1         |       part 2
 :-------------------------:|:-------------------------:
 ![](screenshots/dialog.png)  |  ![](screenshots/dialog.png)
