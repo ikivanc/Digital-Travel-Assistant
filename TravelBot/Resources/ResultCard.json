@@ -1,0 +1,93 @@
+﻿{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "text": "Hotel Search Results"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                              {
+                                "type": "Image",
+                                "style": "Person",
+                                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBnvbXOGteqB3TzXi-cwmXcpxoZEOigHWQ7-xKQLIlOVh0LLm90A",
+                                "size": "Small"
+                              }
+                            ],
+                            "width": "auto"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "weight": "Bolder",
+                                    "text": "Date Range:",
+                                    "wrap": true
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "None",
+                                    "text": "Check-In: #CheckIn - Check-Out: #CheckOut",
+                                    "isSubtle": true,
+                                    "wrap": true
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "FactSet",
+                    "facts": [
+                      {
+                        "title": "Region Name:",
+                        "value": "#Region"
+                      },
+                      {
+                        "title": "Hotel Name:",
+                        "value": "#HotelName"
+                      },
+                      {
+                        "title": "Room Type:",
+                        "value": "#Room"
+                      }
+                    ]
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Ready to confirm your search?",
+                    "wrap": true
+                }
+            ]
+        }
+    ],
+    "actions": [
+      {
+        "type": "Action.OpenUrl",
+        "title": "Confirm",
+        "url": "http://adaptivecards.io"
+      },
+        {
+            "type": "Action.OpenUrl",
+            "title": "Cancel",
+            "url": "http://adaptivecards.io"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
