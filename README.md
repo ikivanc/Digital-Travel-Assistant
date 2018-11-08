@@ -33,7 +33,7 @@ Also same question can be more general like below.
 
 ## Enabling Turkish understanding using Cognitive Services Translator API
 
-After enabling translator for every input of users, we've used translated utterances to feed LUIS.AI. We've tested same questions like above in Turkish and results are likebelow. For some domain specific terms they're thinking of using Custom Translator to provide their own domain specific translator to feed LUIS with correct utterances.
+After enabling translator for every input of users, we've used translated utterances to feed LUIS.AI. We've tested same questions like above in Turkish and results are likebelow. For some domain specific terms you can use Custom Translator to provide your own domain specific translator to feed LUIS with correct utterances.
 
  LUIS with 4 entities             |  LUIS with 2 entities
 :-------------------------:|:-------------------------:
