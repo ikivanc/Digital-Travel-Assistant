@@ -1,0 +1,25 @@
+﻿{
+  "name": "TravelBot",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+      "type": "luis",
+      "name": "LuisBot",
+      "appId": "YOUR_APP_ID",
+      "version": "v0.1",
+      "authoringKey": "YOUR_AUTHORING_KEY",
+      "subscriptionKey": "YOUR_AUTHORING_KEY/YOUR_SUBCRIPTION_KEY",
+      "region": "westus",
+      "id": "2"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
