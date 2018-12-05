@@ -14,7 +14,7 @@ Here's a guided conversations every answer picked from a suggestion list feature
 
  Conversation part 1         |       part 2
 :-------------------------:|:-------------------------:
-![](screenshots/dialog.png)  |  ![](screenshots/dialog.png)
+![](screenshots/dialog.png)  |  ![](screenshots/dialog2.png)
 
 	
 ## Enabling NLP in Digital Assistant using LUIS.AI
