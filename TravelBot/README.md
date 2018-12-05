@@ -1,14 +1,9 @@
-﻿This sample demonstrates a simple echo bot with state with ASP.Net Core 2. The bot maintains a simple counter that increases with each message from the user.
+# TravelBot
+This sample demonstrates a simple travel bot state with ASP.Net Core 2. 
 
-# To try this sample
-- Clone the samples repository
-```bash
-git clone https://github.com/Microsoft/botbuilder-samples.git
-```
-- [Optional] Update the `appsettings.json` file under `botbuilder-samples\samples\csharp_dotnetcore\02.echo-with-counter` with your botFileSecret.  For Azure Bot Service bots, you can find the botFileSecret under application settings.
 # Prerequisites
 ## Visual Studio
-- Navigate to the samples folder (`botbuilder-samples\samples\csharp_dotnetcore\02.echo-with-counter`) and open EchoBotWithCounter.csproj in Visual Studio.
+- Navigate to the samples folder and open TravelBot.csproj in Visual Studio.
 - Hit F5.
 
 ## Visual Studio Code
@@ -23,8 +18,9 @@ developers to test and debug their bots on localhost or running remotely through
 
 ## Connect to bot using Bot Framework Emulator **V4**
 - Launch the Bot Framework Emulator.
-- File -> Open bot and navigate to `botbuilder-samples\samples\csharp_dotnetcore\02.echo-with-counter` folder.
+- File -> Open bot and navigate to project folder.
 - Select `BotConfiguration.bot` file.
+
 # Bot state
 A key to good bot design is to track the context of a conversation, so that your bot remembers things like the answers to previous questions. Depending on what your bot is used for, you may even need to keep track of conversation state or store user related information for longer than the lifetime of one given conversation.
 
