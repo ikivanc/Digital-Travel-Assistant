@@ -1,5 +1,5 @@
 # Digital Travel Assistant
-Digital Travel Assistant. This digital assistant can ask step by step needed questions or answer questions like customers ask to travel agencies, such as "I would like to travel to this region/hotel/holiday type" , for a certain time durations "Sea side hotels between 12 Dec to 21 Dec" , or for a certain regions such as "hotels in Aegean region" and last but not least with their number of guests "with 2 people", "2 adults with 2 children" etc.
+Digital Travel Assistant. This digital assistant can ask step by step needed questions or answer questions like customers ask to travel agencies, such as "I would like to travel to this region/hotel/holiday type" , for certain time durations "Sea side hotels between 12 Dec to 21 Dec" , or for certain regions such as "hotels in Aegean region" and last but not least with their number of guests "with 2 people", "2 adults with 2 children" etc.
 
 This assistant also support your native language, so in this demo you'll see Turkish Language as a default language of the digital asistant but you can try with other languages as well.
 
