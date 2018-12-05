@@ -1,0 +1,189 @@
+{
+  "luis_schema_version": "3.1.0",
+  "versionId": "0.1",
+  "name": "TravelApp",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "HotelSearch"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "HotelName",
+      "roles": []
+    }
+  ],
+  "composites": [
+    {
+      "name": "GuestCount",
+      "children": [
+        "number"
+      ],
+      "roles": []
+    }
+  ],
+  "closedLists": [
+    {
+      "name": "Hotel Region",
+      "subLists": [
+        {
+          "canonicalForm": "TurkeyRegion",
+          "list": [
+            "Mediterranean",
+            "Aegean",
+            "Center Anatolia",
+            "Eastern Anatolia",
+            "South Eastern Anatolia",
+            "Marmara",
+            "BlackSea"
+          ]
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "RoomType",
+      "subLists": [
+        {
+          "canonicalForm": "RoomType",
+          "list": [
+            "Single",
+            "King Size",
+            "KingSize",
+            "SingleBed",
+            "KingSize Bed",
+            "King Size Bed",
+            "Suite",
+            "Suites"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    },
+    {
+      "name": "number",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "i would like to see hotels in aegean region for 2 people",
+      "intent": "HotelSearch",
+      "entities": [
+        {
+          "entity": "GuestCount",
+          "startPos": 48,
+          "endPos": 55
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for a room for 2 people in titanic hotel between dec 9th to dec 18th",
+      "intent": "HotelSearch",
+      "entities": [
+        {
+          "entity": "GuestCount",
+          "startPos": 27,
+          "endPos": 34
+        },
+        {
+          "entity": "HotelName",
+          "startPos": 39,
+          "endPos": 51
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for hotels for 2 in aegean region check in dec 9th and check out dec 18th",
+      "intent": "HotelSearch",
+      "entities": [
+        {
+          "entity": "GuestCount",
+          "startPos": 27,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for hotels for 2 in mediterranean region between dec 9th to dec 18th",
+      "intent": "HotelSearch",
+      "entities": [
+        {
+          "entity": "GuestCount",
+          "startPos": 27,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for hotels in blacksea",
+      "intent": "HotelSearch",
+      "entities": []
+    },
+    {
+      "text": "i'm looking for hotels with king size bed in blacksea",
+      "intent": "HotelSearch",
+      "entities": []
+    },
+    {
+      "text": "i'm looking for hotels with king size bed in blacksea for sunday",
+      "intent": "HotelSearch",
+      "entities": []
+    },
+    {
+      "text": "i'm looking for king size bed room for 2 people in titanic hotel between dec 9th to dec 18th",
+      "intent": "HotelSearch",
+      "entities": [
+        {
+          "entity": "GuestCount",
+          "startPos": 39,
+          "endPos": 46
+        },
+        {
+          "entity": "HotelName",
+          "startPos": 51,
+          "endPos": 63
+        }
+      ]
+    },
+    {
+      "text": "looking for hotels for 2 in blacksea region",
+      "intent": "HotelSearch",
+      "entities": [
+        {
+          "entity": "GuestCount",
+          "startPos": 23,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "looking for hotels for 2 in blacksea region between dec 9th to dec 18th",
+      "intent": "HotelSearch",
+      "entities": [
+        {
+          "entity": "GuestCount",
+          "startPos": 23,
+          "endPos": 23
+        }
+      ]
+    }
+  ],
+  "settings": []
+}

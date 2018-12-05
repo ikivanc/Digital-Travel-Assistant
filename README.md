@@ -16,6 +16,13 @@ Here's a guided conversations every answer picked from a suggestion list feature
 :-------------------------:|:-------------------------:
 ![](screenshots/dialog.png)  |  ![](screenshots/dialog2.png)
 
+## Import LUIS.AI Application
+For handling NLP part we've defined our entities like below entity types under 'HotelSearch' intent. In this sample we haven't defined other intents. 
+
+You can download json export of LUIS application from here [TravelApp.json](LuisApp/TravelApp.json)
+They import this LUIS application into your own LUIS account and then you can connect in 'BotConfiguration' file.
+
+![](screenshots/luisentities.png) 
 	
 ## Enabling NLP in Digital Assistant using LUIS.AI
 
@@ -29,7 +36,7 @@ On the right side, the question includes only "number of guests" and "Region" an
 
 Also same question can be more general like below.
 
-![](screenshots/luisdialog1.png)
+![](screenshots/luisdialog1.png) 
 
 ## Enabling Turkish understanding using Cognitive Services Translator API
 
@@ -38,3 +45,6 @@ After enabling translator for every input of users, we've used translated uttera
  LUIS with 4 entities             |  LUIS with 2 entities
 :-------------------------:|:-------------------------:
 ![](screenshots/luisdialogTR.png)  |  ![](screenshots/luisdialogTR1.png)
+
+
+Hope you enjoyed it!
