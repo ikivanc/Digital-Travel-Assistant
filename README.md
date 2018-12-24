@@ -19,8 +19,7 @@ Here's a guided conversations every answer picked from a suggestion list feature
 ## Import LUIS.AI Application
 For handling NLP part we've defined our entities like below entity types under 'HotelSearch' intent. In this sample we haven't defined other intents. 
 
-You can download json export of LUIS application from here [TravelApp.json](LuisApp/TravelApp.json)
-They import this LUIS application into your own LUIS account and then you can connect in 'BotConfiguration' file.
+You can download json export of LUIS application from here [TravelApp.json](LuisApp/TravelApp.json) then import this LUIS application into your own LUIS account and then you can connect in 'BotConfiguration' file.
 
 ![](screenshots/luisentities.png) 
 	
