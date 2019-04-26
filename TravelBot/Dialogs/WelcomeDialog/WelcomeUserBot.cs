@@ -387,7 +387,7 @@ namespace TravelBot.Dialogs.WelcomeDialog
             await this._welcomeUserStateAccessors.UserState.SaveChangesAsync(step.Context);
 
             // Create Adaptive Card for confirmation view
-            var cardAttachment = await this.CreateAdaptiveCardAttachment(@".\Resources\ResultCard.json", step.Context);
+            var cardAttachment = await this.CreateAdaptiveCardAttachmentAsync(@".\Resources\ResultCard.json", step.Context);
             var reply = step.Context.Activity.CreateReply();
             reply.Attachments = new List<Attachment>() { cardAttachment };
             await step.Context.SendActivityAsync(reply, cancellationToken);
@@ -399,7 +399,7 @@ namespace TravelBot.Dialogs.WelcomeDialog
             return await step.EndDialogAsync(cancellationToken);
         }
 
-        private async Task<Attachment> CreateAdaptiveCardAttachment(string filePath, ITurnContext turnContext)
+        private async Task<Attachment> CreateAdaptiveCardAttachmentAsync(string filePath, ITurnContext turnContext)
         {
             var adaptiveCardJson = File.ReadAllText(filePath);
 
